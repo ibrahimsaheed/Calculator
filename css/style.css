@@ -1,25 +1,41 @@
-.show{
-    display: none;
-  }
-  .release{
-    display: none;
-  }
-  .prove{
-    display: none;
-  }
-  .display{
-    display: none;
-  }
-  .perform{
-    display: none;
-  }
-  .visible{
-    display: none;
-  }
-h4{
-  cursor: pointer;
-  
+.answer{
+  margin-left: 10px;
+  border-style: ridge;
+  border-radius: 10px;
+  background-color: blue;
+  height: 35px;
+  width: 250px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: blue;
+  font-size: large;
+  padding-top: 5px;
 }
-h4:hover{
-  text-decoration: underline;
+#box{
+border: 5px;
+width: 770px;
+height: 18 50px;
+border-style: dotted ;
+
+margin-left: 370px;
+background-color: white;
+border: orangered;
+ 
+}
+body{
+  background-color: blue;
+  color: blue;
+}
+button:hover{
+background-color: white;
+color: blue;
+}
+.answer:hover{
+  background-color: white;
+  color: blue;
+}
+.sign{
+
+  
 }

@@ -2,146 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-    <header>
-        <h1 class="text-center">JAVASCRIPT</h1>
-    </header>
-    <style>
-        body {
-            background-color: orangered;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
+  <div class="container" id="box">
+
     <div class="container">
-        <div class="text-center border-bottom">
-            <img src="image/R.png" alt="">
+      <div class="jumbotron">
+        <h1 class="text-center">Calculator</h1>
+      </div>
+
+      <form id="add">
+        <div class="form-group">
+          <label for="add1">1st number:</label>
+          <input id="add1" class="form-control" type="number">
         </div>
-        <br>
+        <div class="form-group text-center">
+          <h1 class="sign"></h1>
+        </div>
+        <div class="form-group">
+          <label for="add2">2nd number:</label>
+          <input id="add2" class="form-control" type="number">
+        </div>
         <div class="row">
-            <div class="col-6 text-center">
-                <br><br>
-                <div class="hide">
-                    <h4 class="javascript text-warning">JAVASCRIPT</h4>
-                </div>
 
-                <div class="show">
-                    <h4 class="javascript">JAVASCRIPT</h4>
-                    <img src="image/R (1).png" width="200" height="150">
-                    <p>
-                    <h6 class="text-warning">JavaScript is a dynamic programming language that's used for web
-                        development, in web
-                        applications,for game development, and lots more. It allows you to implement dynamic
-                        features on web pages that cannot be done with only HTML and CSS.
-                    </h6>
-                    </p>
-                </div>
-                <br><br>
-                <div class="cover">
-                    <h4 class="html text-warning">HTML</h4>
-                </div>
+          <button id="Add" type="submit" class="col-2 btn btn-outline-primary">Add!</button>
+          <button id="Subtract" type="submit" class="col-2 btn btn-outline-primary">Subtract!</button>
+          <button id="Multiply" type="submit" class="col-2 btn btn-outline-primary">Multiply!</button>
+          <button id="Divide" type="submit" class="col-2 btn btn-outline-primary">Divide!</button>
+          <button id="Exponetial" type="submit" class="col-2 btn btn-outline-primary">Exponetial!</button>
+      
+      <br>
+      <br>
 
-                <div class="release">
-                    <h4 class="html">HTML</h4>
-                    <img src="image/n.jpg" width="200" height="150">
-                    <p>
-                    <h6 class="text-warning">
-                        The HyperText Markup Language, or HTML is the standard markup language for
-                        documents designed to be displayed in a web browser. It can be assisted by
-                        technologies such as Cascading Style Sheets (CSS) and scripting languages such
-                        as JavaScript.
-                    </h6>
-                    </p>
-                </div>
-                <br><br>
-                <div class="conceal">
-                    <h4 class="bootstrap text-warning">BOOTSTRAP</h4>
-                </div>
-                <div class="prove">
-                    <h4 class="bootstrap">BOOTSTRAP</h4>
-                    <img src="image/OIP.jpg" width="200" height="150">
-                    
-                    <h6 class="text-warning">
-                        Bootstrap is a free and open source front end development framework for the creation
-                        of websites and web apps. The Bootstrap framework is built on HTML, CSS, and JavaScript
-                        (JS) to facilitate the development of responsive, mobile-first sites and apps.
-                    </h6>
-                    
-                </div>
-            </div>
-            <div class="col-6 text-center">
-                <br><br>
-                <div class="veil">
-                    <h4 class="jquery text-warning">
-                        JQUERY
-                    </h4>
-                </div>
-                <div class="display">
-                    <h4 class="jquery">
-                        JQUERY
-                    </h4>
-                    <img src="image/jquery.png" width="200" height="150">
-                    <p>
-                    <h6 class="text-warning">
-                        jQuery is a concise and fast JavaScript library that can be used to simplify
-                        event handling, HTML document traversing, Ajax interactions and animation for
-                        speedy website development. jQuery simplifies the HTML's client-side scripting,
-                        thus simplifying Web 2.0 applications development.
-                    </h6>
-                    </p>
-                </div>
-                <br><br>
-                <div class="shroud">
-                    <h4 class="css text-warning">
-                        CSS
-                    </h4>
-                </div>
-                <div class="perform">
-                    <h4 class="css">
-                        CSS
-                    </h4>
-                    <img src="image/css.png" width="200" height="150">
-                    <p>
-                    <h6 class="text-warning">
-                        Cascading Style Sheets (CSS) is a style sheet language used for describing
-                        the presentation of a document written in a markup language such as HTML. CSS is a
-                        cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-                    </h6>
-                    </p>
-                </div>
-                <br><br>
-                <div class="mask">
-                    <h4 class="var text-warning">
-                        VARIABLES
-                    </h4>
-                </div>
-                <div class="visible">
-                    <h4 class="var">
-                        VARIABLES
-                    </h4>
-                    <img src="image/R (2).png" width="200" height="150">
-                    <p>
-                    <h6 class="text-warning">
-                        A JavaScript variable is simply a name of storage location. There are two types of
-                        variables in JavaScript : local variable and global variable. There are some rules
-                        while declaring a JavaScript variable (also known as identifiers). Name must start
-                        with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
-                    </h6>
-                    </p>
-                </div>
-            </div>
+      <div>
+        <br>
+        <div id="result" class="answer form-control">
+          <h4>Answer</h4>
+
+
+
         </div>
+      </div>
+      </form>
     </div>
-    </div>
-
 </body>
 
 </html>
